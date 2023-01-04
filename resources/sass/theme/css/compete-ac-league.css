@@ -1,0 +1,46 @@
+.booking a{
+    padding:15px 24px 15px 24px;
+    background:#5e8208;
+    overflow:hidden;
+    border-radius:23px;
+    color:#fff;
+    font-size:16px;
+    font-family:Montserrat,sans-serif;
+}
+.booking a:hover{
+    border-radius:9px;background:#141414
+}
+
+#video_container1{
+    position: relative;
+}
+
+#video_container1 h3 {
+    color: white;
+}
+#video_container1 .inner{
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 10% 15% 5% 15%;
+    text-align: left;
+}
+
+h6{
+    color: #8DC63F;
+}
+
+.video-container{
+    height: 400px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.video-container iframe{
+    height: 400px;
+    width: 100%;
+}

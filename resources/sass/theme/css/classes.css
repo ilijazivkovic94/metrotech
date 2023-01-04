@@ -1,0 +1,437 @@
+a{
+    color: #20409A;
+}
+
+a:hover{
+    color: #8DC63F;
+}
+
+.classes-image h3{
+    padding: 230px 0 0 100px;
+    color: white;
+}
+
+.classes-image .sub-title, .classes-image .sub-button{
+    padding: 330px 0 0 100px;
+    color: #8DC63F;
+}
+
+.mt-2{
+    margin-top: 0.5rem!important;
+}
+
+.classes-image .bg-image{
+    background-image: url(https://metrotech.gg/assets/images/bg-banner/classes.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.classes-image .contact-bg-image{
+    background-image: url(https://metrotech.gg/assets/images/bg-banner/Contact.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.classes-image .coach-bg-image{
+    background-image: url(https://metrotech.gg/assets/images/bg-banner/Teams.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.classes-image .nfl-bg-image{
+    background-image: url(https://metrotech.gg/assets/images/bg-banner/Header-Blank-image.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.classes-image .fight-bg{
+    /* background-image: url(https://metrotech.gg/assets/images/bg-banner/banner_for_changes1.jpg); */
+    /* background-size: cover; */
+    position: relative;
+    /* height: 600px; */
+}
+.classes-image .fight-bg-image{
+    /* background-image: url(https://metrotech.gg/assets/images/bg-banner/banner_for_changes1.jpg); */
+    /* background-size: cover; */
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* height: 600px; */
+}
+.responsive_image{
+    width: 100%;
+    height: auto;
+}
+.fight-logos{
+    position: absolute;
+    top: 0;
+    right: 0;    
+    width: 32%;
+}
+.fight-logos .metro_logo {
+    width: 30%;
+    height: auto;
+}
+.fight-logos .header_bank_logo {
+    width: 30%;
+    height: auto;
+}
+.fight-logos .gamevote {
+    width: 30%;
+    height: auto;
+}
+
+.classes-kind {
+    padding: 40px 0 20px 0;
+    box-sizing: border-box;
+}
+
+.classes-kind .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.classes-kind .custom-row .col-4{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.classes-kind .class-kind-item{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.classes-kind .class-kind-item:hover{
+    border-color: #8DC63F!important;
+}
+
+
+.classes-kind .class-kind-item h3{
+    text-align: center;
+}
+
+.classes-kind .class-kind-item h6{
+    padding: 0!important;
+}
+.classes-kind .class-kind-img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 992px){
+    .classes-kind .custom-row .col-4{
+        width: 33.3%;
+    }
+}
+
+.class-details .detail-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.class-details h3{
+    color: #20409A;
+}
+
+.booking{
+    margin: 15px 0 15px 0;
+}
+
+.booking a{
+    padding:15px 24px 15px 24px;
+    background:#5e8208;
+    overflow:hidden;
+    border-radius:23px;
+    color:#fff;
+    font-size:16px;
+    font-family:Montserrat,sans-serif;
+}
+.booking a:hover{
+    border-radius:9px;background:#141414
+}
+
+.class-details{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subscribe_panel{
+    padding: 20px;
+    background-color: #F9FADE;
+}
+
+.indicates-required{
+    text-align: right;
+    font-size: 12px;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    border-color: white;
+    outline: white;
+    color: white;
+    border: 2px solid;
+    border-radius: 0px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.btn-transparent:hover{
+    color: #8DC63F;
+    border-color: #8DC63F;
+}
+
+.background-overlay{
+    width: calc(100% - 30px);
+    height: 500px;
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    background-color: #00000054;
+}
+
+.content-container{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+.section_info{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.flag_elem{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: red;
+    border-radius: 15px;
+    border: 2px solid;
+}
+
+.flag_elem h4{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.section_content{
+    max-width: 980px;
+    background-color: #000000c7;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.section_content h1{
+   color: white;
+}
+
+.section_prize{
+    background-image: url(https://metrotech.gg/assets/images/bg-banner/banner_for_change_prize.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75% 100%;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.section_prize h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.section_prize h3{
+    padding-top: 4px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
+
+.section_prize h3 a{
+    color: white;
+    font-size: 16px;
+}
+
+.white-text{
+    color: white!important;
+}
+
+.main-slider .carousel-indicators{
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    display: flex;
+}
+
+.section_schedule_content{
+    max-width: 980px;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.section_schedule{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: grey;
+}
+
+.section_schedule h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.section_schedule h3{
+    padding-top: 4px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+}
+
+.section_schedule h3 a{
+    color: white;
+    font-size: 16px;
+}
+
+.section_schedule .rank{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.section_schedule .rank h3:first-child{
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+.elementor-social-icon{
+    background-color: #818a91;
+    font-size: 25px;
+    text-align: center;
+    padding: .5em;
+    margin-right: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex: 1;
+    display: flex;
+}
+
+.button_list{
+    display: flex;
+    flex: 1;
+    max-width: 300px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.elementor-social-icon-twitch {
+    background-color: #6441a5;
+}
+.elementor-social-icon-youtube {
+    background-color: #cd201f;
+}
+.elementor-social-icon-instagram {
+    background-color: #262626;
+}
+.elementor-social-icon-facebook {
+    background-color: #3b5998;
+}
+.elementor-social-icon-twitter {
+    background-color: #1da1f2;
+}
+
+.last_section{
+    background-image: url(https://metrotech.gg/assets/images/bg-banner/franchisebanner.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-image{
+    max-width: 960px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.elementor-image img{
+    margin-top: 10px;
+}
+
+input[type=password] {
+    padding: 15px 10px;
+    border: 1px solid transparent;
+    width: 100%;
+    background: #fff;
+    font-size: 14px;
+    color: #666;
+    line-height: normal;
+    outline: 0;
+}
+.elementor-login-remember-me{
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}

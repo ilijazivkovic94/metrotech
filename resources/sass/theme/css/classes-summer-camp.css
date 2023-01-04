@@ -1,0 +1,23 @@
+section{
+    padding: 50px 30px 0px 30px !important;
+}
+
+section h1, section h4, section h3{
+    color: #20409A;
+    text-align: center;
+}
+
+.learn-more-btn  {
+    padding: 15px 24px 15px 24px;
+    background: #5e8208;
+    overflow: hidden;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.sponsor-icons-wrapper {
+    height: 220px !important;
+}

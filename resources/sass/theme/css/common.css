@@ -1,0 +1,96 @@
+
+.main-slider-section .item {
+    background-size: cover;
+    height: 600px;
+}
+
+.custom-content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.team-container{
+    padding:15px 24px 67px 24px;
+    background-color: lightgrey;
+}
+
+.team-image{
+    height: 100px;
+    width: auto!important;
+    margin: auto;
+    display: block;
+}
+
+.list-container{
+    list-style-type: disc;
+    margin: 15px 0 15px 20px;
+}
+
+.list-container li a{
+    color: #20409A!important;
+}
+
+.list-container li a:hover{
+    color: lightgreen!important;
+}
+
+.main-sponsor-slider-background{
+    background-image: url("https://metrotech.gg/assets/images/imgs/BlueSquares.jpg")!important;
+}
+
+.main-sponsor-slider-background h5{
+    padding-bottom: 30px;
+    color: white!important;
+}
+
+.main-sponsor-slider-background p{
+    padding-bottom: 30px;
+    color: white!important;
+}
+
+.partners {
+    padding: 50px 15px 0px 15px;
+    background-color: white;
+}
+
+.sponsor-icons-custom {
+    max-width: 150px;
+}
+
+.sponsor-icons-wrapper{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chat-icon{
+    background-color: #6c9900;
+    padding: 14px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0px 0px 10px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    cursor: pointer;
+}
+
+.chat-icon i {
+    color: white;
+    font-size: 37px;
+}
+
+.chat-icon:hover{
+    background-color: #9bc72f;
+}
